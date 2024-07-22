@@ -7,6 +7,7 @@ Website ini menampilkan cuaca saat ini dan prediksi cuaca besok menggunakan API 
 - Menampilkan cuaca saat ini berdasarkan lokasi yang diinputkan pengguna.
 - Menampilkan prediksi cuaca untuk besok berdasarkan lokasi yang diinputkan pengguna.
 - Informasi cuaca yang ditampilkan meliputi suhu, kelembapan, kecepatan angin, dan deskripsi cuaca.
+- Mengirim Kritik dan Saran via PHP Mailer yang pesannya juga akan diterima oleh pengguna.
 
 ## API yang Digunakan
 
@@ -30,3 +31,8 @@ Endpoint: https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=m
 3. Masukkan nama kota pada input yang tersedia dan klik tombol "Cari".
 
 4. Informasi cuaca saat ini dan prediksi cuaca besok akan ditampilkan di layar.
+
+
+## 🚀 Authors
+
+- [@MuhamadAdhiWinata](https://www.github.com/MuhamadAdhiWinata)
