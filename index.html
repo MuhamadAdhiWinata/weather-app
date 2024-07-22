@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramalan Cuaca Indonesia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Ramalan Cuaca Indonesia</h1>
+      <form id="locationForm" class="mb-4">
+        <div class="input-group">
+          <input type="text" id="location" class="form-control" placeholder="Contoh: Jakarta" required />
+          <button type="submit" class="btn btn-secondary">Lihat Cuaca</button>
+        </div>
+      </form>
+      <div id="weatherResult" class="row d-flex justify-content-center py-5"></div>
+
+      <!-- Form untuk mengirim kritik dan saran -->
+      <form id="feedbackForm" class="mt-4">
+        <div class="mb-3">
+          <label for="email" class="form-label text-white">Email Anda</label>
+          <input type="email" id="email" class="form-control" placeholder="Email Anda" required />
+        </div>
+        <div class="mb-3">
+          <label for="feedback" class="form-label text-white">Kritik dan Saran</label>
+          <textarea id="feedback" class="form-control" rows="4" placeholder="Masukkan kritik dan saran Anda" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Kirim Kritik & Saran</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+      <div class="container text-center">
+        <p class="mb-0">Created By Muhamad Adhi Winata_215610059.</p>
+        <p class="mb-0">© 2024 Ramalan Cuaca Indonesia.</p>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
